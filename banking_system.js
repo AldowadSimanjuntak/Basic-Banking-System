@@ -12,7 +12,7 @@ class BankAccount {
       } else {
         console.log("Invalid deposit amount.");
       }
-    }, 2000); // Menggunakan setTimeout untuk transaksi asynchronous (3 detik delay).
+    }, 3000); // Menggunakan setTimeout untuk transaksi asynchronous (3 detik delay).
   }
 
   withdraw(amount) {
