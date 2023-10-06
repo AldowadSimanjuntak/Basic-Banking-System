@@ -10,10 +10,11 @@
         <div class="center">
             <h1>Bank Account</h1>
             <p>Saldo saat ini: Rp.<span id="saldoDisplay">0</span></p>
-            <button onclick="tambahSaldo()">Tambah Saldo</button>
-            <button onclick="kurangiSaldo()">Kurangi Saldo</button>
+            <button onclick="bankAccount.deposit(prompt('Masukkan jumlah saldo yang ingin ditambahkan:'))">Tambah Saldo</button>
+            <button onclick="bankAccount.withdraw(prompt('Masukkan jumlah saldo yang ingin ditarik:'))">Kurangi Saldo</button>
         </div>
     </div>
     <script src="bank_account.js"></script>
+    <script src="banking_system.js"></script>
 </body>
 </html>
